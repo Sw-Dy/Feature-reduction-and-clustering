@@ -1,0 +1,13 @@
+Dataset,Reduction_Method,Clustering_Algorithm,Silhouette_Score,Optimal_k,Optimal_n_clusters,Optimal_eps,Optimal_min_samples
+1_CustomerPersonality,pca,kmeans,0.283686626996943,2.0,,,
+1_CustomerPersonality,pca,hierarchical,0.3048406000963637,,2.0,,
+1_CustomerPersonality,pca,dbscan,0.9886653198301645,,,0.3,3.0
+1_CustomerPersonality,lda,kmeans,0.6055953139813534,3.0,,,
+1_CustomerPersonality,lda,hierarchical,0.5413751738770091,,3.0,,
+1_CustomerPersonality,lda,dbscan,0.4883033686542159,,,0.5,10.0
+1_CustomerPersonality,tsne,kmeans,0.518825113773346,5.0,,,
+1_CustomerPersonality,tsne,hierarchical,0.5065268874168396,,5.0,,
+1_CustomerPersonality,tsne,dbscan,0.9832279086112976,,,0.3,3.0
+1_CustomerPersonality,ifs,kmeans,0.43085009922349937,2.0,,,
+1_CustomerPersonality,ifs,hierarchical,0.3451766058117283,,3.0,,
+1_CustomerPersonality,ifs,dbscan,0.44067583648107816,,,0.5,10.0

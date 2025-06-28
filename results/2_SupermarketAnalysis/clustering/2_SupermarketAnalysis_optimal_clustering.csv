@@ -1,0 +1,13 @@
+Dataset,Reduction_Method,Clustering_Algorithm,Silhouette_Score,Optimal_k,Optimal_n_clusters,Optimal_eps,Optimal_min_samples
+2_SupermarketAnalysis,pca,kmeans,0.13120673534845217,10.0,,,
+2_SupermarketAnalysis,pca,hierarchical,0.18360364327054607,,2.0,,
+2_SupermarketAnalysis,pca,dbscan,0.8938368036175759,,,0.3,3.0
+2_SupermarketAnalysis,lda,kmeans,0.6959441902949906,4.0,,,
+2_SupermarketAnalysis,lda,hierarchical,0.6889374327626936,,4.0,,
+2_SupermarketAnalysis,lda,dbscan,0.7066130206882214,,,0.7,10.0
+2_SupermarketAnalysis,tsne,kmeans,0.4517826437950134,6.0,,,
+2_SupermarketAnalysis,tsne,hierarchical,0.40733602643013,,5.0,,
+2_SupermarketAnalysis,tsne,dbscan,0.9836714863777161,,,0.3,3.0
+2_SupermarketAnalysis,ifs,kmeans,0.26370393610912135,10.0,,,
+2_SupermarketAnalysis,ifs,hierarchical,0.24721292138934312,,10.0,,
+2_SupermarketAnalysis,ifs,dbscan,0.6476378033809491,,,0.5,10.0

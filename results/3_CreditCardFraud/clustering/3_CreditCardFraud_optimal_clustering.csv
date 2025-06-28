@@ -1,0 +1,13 @@
+Dataset,Reduction_Method,Clustering_Algorithm,Silhouette_Score,Optimal_k,Optimal_n_clusters,Optimal_eps,Optimal_min_samples
+3_CreditCardFraud,pca,kmeans,0.2535316417566376,3.0,,,
+3_CreditCardFraud,pca,hierarchical,0.19181171562137558,,2.0,,
+3_CreditCardFraud,pca,dbscan,0.19011272347419927,,,0.3,10.0
+3_CreditCardFraud,lda,kmeans,0.5211957997899715,3.0,,,
+3_CreditCardFraud,lda,hierarchical,0.41922156149241624,,3.0,,
+3_CreditCardFraud,lda,dbscan,0.8081072350204368,,,1.0,5.0
+3_CreditCardFraud,tsne,kmeans,0.39947476983070374,6.0,,,
+3_CreditCardFraud,tsne,hierarchical,0.3820364475250244,,6.0,,
+3_CreditCardFraud,tsne,dbscan,0.9967767000198364,,,0.5,10.0
+3_CreditCardFraud,ifs,kmeans,0.3458395630646461,5.0,,,
+3_CreditCardFraud,ifs,hierarchical,0.33102518954537313,,2.0,,
+3_CreditCardFraud,ifs,dbscan,0.43756340747271466,,,1.0,5.0

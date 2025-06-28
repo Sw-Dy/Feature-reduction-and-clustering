@@ -1,0 +1,13 @@
+Dataset,Reduction_Method,Clustering_Algorithm,Silhouette_Score,Optimal_k,Optimal_n_clusters,Optimal_eps,Optimal_min_samples
+4_MedicalCost,pca,kmeans,0.2740104484271866,2.0,,,
+4_MedicalCost,pca,hierarchical,0.32347915867642923,,2.0,,
+4_MedicalCost,pca,dbscan,0.7294532388977295,,,0.3,10.0
+4_MedicalCost,lda,kmeans,0.6588799204431877,2.0,,,
+4_MedicalCost,lda,hierarchical,0.6378093941669064,,2.0,,
+4_MedicalCost,lda,dbscan,,,,,
+4_MedicalCost,tsne,kmeans,0.5791524648666382,5.0,,,
+4_MedicalCost,tsne,hierarchical,0.5785430073738098,,5.0,,
+4_MedicalCost,tsne,dbscan,0.9804403185844421,,,0.5,5.0
+4_MedicalCost,ifs,kmeans,0.26130834074922327,2.0,,,
+4_MedicalCost,ifs,hierarchical,0.25445388103121047,,2.0,,
+4_MedicalCost,ifs,dbscan,0.8141379765991508,,,0.3,10.0

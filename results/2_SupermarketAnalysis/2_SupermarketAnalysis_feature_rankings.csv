@@ -1,0 +1,16 @@
+Feature,Rank,Method,Score
+add_to_cart_order,1,PCA,2.803543564156481
+days_since_prior_order,2,PCA,2.7654483348749066
+reordered,3,PCA,2.7212733632806927
+order_dow,4,PCA,2.7053514141832324
+user_id,5,PCA,2.5999247827397163
+product_name_prepared soups salads,1,LDA,19.380685649693632
+product_name_white wines,2,LDA,12.751873831750698
+product_name_eye ear care,3,LDA,11.6679670751038
+days_since_prior_order,4,LDA,10.21951550383843
+product_name_skin care,5,LDA,9.458091735939513
+reordered,1,IFS,1822.68989378797
+days_since_prior_order,2,IFS,1668.3679893127462
+order_number,3,IFS,91.04950868819704
+order_dow,4,IFS,55.2065064152344
+add_to_cart_order,5,IFS,24.71911260855326

@@ -1,0 +1,49 @@
+Dataset,Feature_Reduction_Method,Selected_Features,Clustering_Algorithm,Optimal_Clusters,Silhouette_Score
+1_CustomerPersonality,PCA,"Education, AcceptedCmp3, Age, AcceptedCmp4, Response",kmeans,2.0,0.283686626996943
+1_CustomerPersonality,PCA,"Education, AcceptedCmp3, Age, AcceptedCmp4, Response",hierarchical,2.0,0.3048406000963637
+1_CustomerPersonality,PCA,"Education, AcceptedCmp3, Age, AcceptedCmp4, Response",dbscan,"eps=0.3, min_samples=3.0",0.9886653198301644
+1_CustomerPersonality,LDA,"Is_Parent, Kidhome, NumWebPurchases, NumStorePurchases, Spent",kmeans,3.0,0.6055953139813534
+1_CustomerPersonality,LDA,"Is_Parent, Kidhome, NumWebPurchases, NumStorePurchases, Spent",hierarchical,3.0,0.5413751738770091
+1_CustomerPersonality,LDA,"Is_Parent, Kidhome, NumWebPurchases, NumStorePurchases, Spent",dbscan,"eps=0.5, min_samples=10.0",0.4883033686542159
+1_CustomerPersonality,TSNE,N/A,kmeans,5.0,0.518825113773346
+1_CustomerPersonality,TSNE,N/A,hierarchical,5.0,0.5065268874168396
+1_CustomerPersonality,TSNE,N/A,dbscan,"eps=0.3, min_samples=3.0",0.9832279086112976
+1_CustomerPersonality,IFS,"Spent, Is_Parent, Meat, Wines, NumCatalogPurchases",kmeans,2.0,0.4308500992234993
+1_CustomerPersonality,IFS,"Spent, Is_Parent, Meat, Wines, NumCatalogPurchases",hierarchical,3.0,0.3451766058117283
+1_CustomerPersonality,IFS,"Spent, Is_Parent, Meat, Wines, NumCatalogPurchases",dbscan,"eps=0.5, min_samples=10.0",0.4406758364810781
+2_SupermarketAnalysis,PCA,"add_to_cart_order, days_since_prior_order, reordered, order_dow, user_id",kmeans,10.0,0.1312067353484521
+2_SupermarketAnalysis,PCA,"add_to_cart_order, days_since_prior_order, reordered, order_dow, user_id",hierarchical,2.0,0.183603643270546
+2_SupermarketAnalysis,PCA,"add_to_cart_order, days_since_prior_order, reordered, order_dow, user_id",dbscan,"eps=0.3, min_samples=3.0",0.8938368036175759
+2_SupermarketAnalysis,LDA,"product_name_prepared soups salads, product_name_white wines, product_name_eye ear care, days_since_prior_order, product_name_skin care",kmeans,4.0,0.6959441902949906
+2_SupermarketAnalysis,LDA,"product_name_prepared soups salads, product_name_white wines, product_name_eye ear care, days_since_prior_order, product_name_skin care",hierarchical,4.0,0.6889374327626936
+2_SupermarketAnalysis,LDA,"product_name_prepared soups salads, product_name_white wines, product_name_eye ear care, days_since_prior_order, product_name_skin care",dbscan,"eps=0.7, min_samples=10.0",0.7066130206882214
+2_SupermarketAnalysis,TSNE,N/A,kmeans,6.0,0.4517826437950134
+2_SupermarketAnalysis,TSNE,N/A,hierarchical,5.0,0.40733602643013
+2_SupermarketAnalysis,TSNE,N/A,dbscan,"eps=0.3, min_samples=3.0",0.983671486377716
+2_SupermarketAnalysis,IFS,"reordered, days_since_prior_order, order_number, order_dow, add_to_cart_order",kmeans,10.0,0.2637039361091213
+2_SupermarketAnalysis,IFS,"reordered, days_since_prior_order, order_number, order_dow, add_to_cart_order",hierarchical,10.0,0.2472129213893431
+2_SupermarketAnalysis,IFS,"reordered, days_since_prior_order, order_number, order_dow, add_to_cart_order",dbscan,"eps=0.5, min_samples=10.0",0.6476378033809491
+3_CreditCardFraud,PCA,"CUST_ID_C11192, CUST_ID_C14114, CUST_ID_C17965, CUST_ID_C12357, CUST_ID_C13971",kmeans,3.0,0.2535316417566376
+3_CreditCardFraud,PCA,"CUST_ID_C11192, CUST_ID_C14114, CUST_ID_C17965, CUST_ID_C12357, CUST_ID_C13971",hierarchical,2.0,0.1918117156213755
+3_CreditCardFraud,PCA,"CUST_ID_C11192, CUST_ID_C14114, CUST_ID_C17965, CUST_ID_C12357, CUST_ID_C13971",dbscan,"eps=0.3, min_samples=10.0",0.1901127234741992
+3_CreditCardFraud,LDA,"CUST_ID_C13782, CUST_ID_C12251, CUST_ID_C14755, CUST_ID_C16877, CUST_ID_C14143",kmeans,3.0,0.5211957997899715
+3_CreditCardFraud,LDA,"CUST_ID_C13782, CUST_ID_C12251, CUST_ID_C14755, CUST_ID_C16877, CUST_ID_C14143",hierarchical,3.0,0.4192215614924162
+3_CreditCardFraud,LDA,"CUST_ID_C13782, CUST_ID_C12251, CUST_ID_C14755, CUST_ID_C16877, CUST_ID_C14143",dbscan,"eps=1.0, min_samples=5.0",0.8081072350204368
+3_CreditCardFraud,TSNE,N/A,kmeans,6.0,0.3994747698307037
+3_CreditCardFraud,TSNE,N/A,hierarchical,6.0,0.3820364475250244
+3_CreditCardFraud,TSNE,N/A,dbscan,"eps=0.5, min_samples=10.0",0.9967767000198364
+3_CreditCardFraud,IFS,"CUST_ID_C12357, CUST_ID_C11437, CUST_ID_C11192, CUST_ID_C14114, CUST_ID_C15701",kmeans,5.0,0.3458395630646461
+3_CreditCardFraud,IFS,"CUST_ID_C12357, CUST_ID_C11437, CUST_ID_C11192, CUST_ID_C14114, CUST_ID_C15701",hierarchical,2.0,0.3310251895453731
+3_CreditCardFraud,IFS,"CUST_ID_C12357, CUST_ID_C11437, CUST_ID_C11192, CUST_ID_C14114, CUST_ID_C15701",dbscan,"eps=1.0, min_samples=5.0",0.4375634074727146
+4_MedicalCost,PCA,"bmi, age, charges, children, region_northwest",kmeans,2.0,0.2740104484271866
+4_MedicalCost,PCA,"bmi, age, charges, children, region_northwest",hierarchical,2.0,0.3234791586764292
+4_MedicalCost,PCA,"bmi, age, charges, children, region_northwest",dbscan,"eps=0.3, min_samples=10.0",0.7294532388977295
+4_MedicalCost,LDA,"smoker_yes, smoker_no, bmi, charges, age",kmeans,2.0,0.6588799204431877
+4_MedicalCost,LDA,"smoker_yes, smoker_no, bmi, charges, age",hierarchical,2.0,0.6378093941669064
+4_MedicalCost,LDA,"smoker_yes, smoker_no, bmi, charges, age",dbscan,"eps=nan, min_samples=nan",
+4_MedicalCost,TSNE,N/A,kmeans,5.0,0.5791524648666382
+4_MedicalCost,TSNE,N/A,hierarchical,5.0,0.5785430073738098
+4_MedicalCost,TSNE,N/A,dbscan,"eps=0.5, min_samples=5.0",0.980440318584442
+4_MedicalCost,IFS,"smoker_no, smoker_yes, charges, bmi, age",kmeans,2.0,0.2613083407492232
+4_MedicalCost,IFS,"smoker_no, smoker_yes, charges, bmi, age",hierarchical,2.0,0.2544538810312104
+4_MedicalCost,IFS,"smoker_no, smoker_yes, charges, bmi, age",dbscan,"eps=0.3, min_samples=10.0",0.8141379765991508
