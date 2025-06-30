@@ -1,0 +1,23 @@
+All datasets with their best silhouette scores by algorithm:
+
+CreditCardFraud:
+  - CreditCardFraud_C1.csv: 0.5596 (Algorithm: DBSCAN)
+  - CreditCardFraud_C2.csv: 0.5528 (Algorithm: DBSCAN)
+
+CustomerPersonality:
+  - CustomerPersonality_D1.csv: 0.8959 (Algorithm: DBSCAN)
+  - CustomerPersonality_D3.csv: 0.8869 (Algorithm: DBSCAN)
+  - CustomerPersonality_D2.csv: 0.8358 (Algorithm: DBSCAN)
+
+MedicalCost:
+  - MedicalCost_E1.csv: 0.9747 (Algorithm: DBSCAN)
+
+SupermarketAnalysis:
+  - SupermarketAnalysis_D2.csv: 0.9937 (Algorithm: DBSCAN)
+  - SupermarketAnalysis_D1.csv: 0.8943 (Algorithm: DBSCAN)
+
+Selected best datasets with their silhouette scores:
+- CreditCardFraud_C1.csv: 0.5596 (Algorithm: DBSCAN)
+- CustomerPersonality_D1.csv: 0.8959 (Algorithm: DBSCAN)
+- MedicalCost_E1.csv: 0.9747 (Algorithm: DBSCAN)
+- SupermarketAnalysis_D2.csv: 0.9937 (Algorithm: DBSCAN)

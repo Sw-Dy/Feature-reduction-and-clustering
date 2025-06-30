@@ -1,0 +1,5 @@
+Dataset Name,Best Algorithm,Algorithm Parameters,Best Silhouette Score,Optimum Clusters
+CreditCardFraud_C1.csv,DBSCAN,"{'eps': 0.8, 'min_samples': 10}",0.5595641980795355,2
+CustomerPersonality_D1.csv,DBSCAN,"{'eps': 0.1, 'min_samples': 15}",0.8958585272739426,5
+MedicalCost_E1.csv,DBSCAN,"{'eps': 0.1, 'min_samples': 15}",0.974657402521164,4
+SupermarketAnalysis_D2.csv,DBSCAN,"{'eps': 0.1, 'min_samples': 7}",0.9936797016389288,2

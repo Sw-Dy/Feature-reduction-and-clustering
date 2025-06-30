@@ -1,0 +1,9 @@
+Dataset Name,Algorithm,Parameters Used,# Clusters,Silhouette Score
+SupermarketAnalysis_D2.csv,DBSCAN,"{'eps': 0.1, 'min_samples': 7}",2,0.9936797016389288
+MedicalCost_E1.csv,DBSCAN,"{'eps': 0.1, 'min_samples': 15}",4,0.974657402521164
+CustomerPersonality_D1.csv,DBSCAN,"{'eps': 0.1, 'min_samples': 15}",5,0.8958585272739426
+SupermarketAnalysis_D1.csv,DBSCAN,"{'eps': 0.4, 'min_samples': 5}",4,0.8943162570708042
+CustomerPersonality_D3.csv,DBSCAN,"{'eps': 0.1, 'min_samples': 15}",10,0.8868854744128701
+CustomerPersonality_D2.csv,DBSCAN,"{'eps': 0.15, 'min_samples': 15}",10,0.8358343124197729
+CreditCardFraud_C1.csv,DBSCAN,"{'eps': 0.8, 'min_samples': 10}",2,0.5595641980795355
+CreditCardFraud_C2.csv,DBSCAN,"{'eps': 0.8, 'min_samples': 10}",2,0.5528161621385038

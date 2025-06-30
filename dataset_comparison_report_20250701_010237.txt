@@ -1,0 +1,87 @@
+=================================================================
+             CLUSTERING ANALYSIS - DATASET COMPARISON           
+=================================================================
+Generated on: 2025-07-01 01:02:37
+
+All datasets with their best silhouette scores by algorithm:
+=================================================================
+
+CreditCardFraud:
+---------------
+  - CreditCardFraud_C1.csv:
+      Score: 0.5596
+      Algorithm: DBSCAN
+      Parameters: {'eps': 0.8, 'min_samples': 10}
+      Clusters: 2
+  - CreditCardFraud_C2.csv:
+      Score: 0.5528
+      Algorithm: DBSCAN
+      Parameters: {'eps': 0.8, 'min_samples': 10}
+      Clusters: 2
+
+CustomerPersonality:
+-------------------
+  - CustomerPersonality_D1.csv:
+      Score: 0.8959
+      Algorithm: DBSCAN
+      Parameters: {'eps': 0.1, 'min_samples': 15}
+      Clusters: 5
+  - CustomerPersonality_D3.csv:
+      Score: 0.8869
+      Algorithm: DBSCAN
+      Parameters: {'eps': 0.1, 'min_samples': 15}
+      Clusters: 10
+  - CustomerPersonality_D2.csv:
+      Score: 0.8358
+      Algorithm: DBSCAN
+      Parameters: {'eps': 0.15, 'min_samples': 15}
+      Clusters: 10
+
+MedicalCost:
+-----------
+  - MedicalCost_E1.csv:
+      Score: 0.9747
+      Algorithm: DBSCAN
+      Parameters: {'eps': 0.1, 'min_samples': 15}
+      Clusters: 4
+
+SupermarketAnalysis:
+-------------------
+  - SupermarketAnalysis_D2.csv:
+      Score: 0.9937
+      Algorithm: DBSCAN
+      Parameters: {'eps': 0.1, 'min_samples': 7}
+      Clusters: 2
+  - SupermarketAnalysis_D1.csv:
+      Score: 0.8943
+      Algorithm: DBSCAN
+      Parameters: {'eps': 0.4, 'min_samples': 5}
+      Clusters: 4
+
+=================================================================
+SELECTED BEST DATASETS
+=================================================================
+- CreditCardFraud_C1.csv:
+  Score: 0.5596
+  Algorithm: DBSCAN
+  Parameters: {'eps': 0.8, 'min_samples': 10}
+  Clusters: 2
+
+- CustomerPersonality_D1.csv:
+  Score: 0.8959
+  Algorithm: DBSCAN
+  Parameters: {'eps': 0.1, 'min_samples': 15}
+  Clusters: 5
+
+- MedicalCost_E1.csv:
+  Score: 0.9747
+  Algorithm: DBSCAN
+  Parameters: {'eps': 0.1, 'min_samples': 15}
+  Clusters: 4
+
+- SupermarketAnalysis_D2.csv:
+  Score: 0.9937
+  Algorithm: DBSCAN
+  Parameters: {'eps': 0.1, 'min_samples': 7}
+  Clusters: 2
+

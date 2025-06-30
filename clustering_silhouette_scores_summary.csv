@@ -1,0 +1,25 @@
+Dataset Name,Algorithm,Parameters Used,# Clusters,Silhouette Score
+CreditCardFraud_C1.csv,KMeans,{'n_clusters': 4},4,0.4919724578351925
+CreditCardFraud_C1.csv,DBSCAN,"{'eps': 0.8, 'min_samples': 10}",2,0.5595641980795355
+CreditCardFraud_C1.csv,Agglomerative,{'n_clusters': 4},4,0.4500825430017364
+CreditCardFraud_C2.csv,KMeans,{'n_clusters': 7},7,0.4492971844435884
+CreditCardFraud_C2.csv,DBSCAN,"{'eps': 0.8, 'min_samples': 10}",2,0.5528161621385038
+CreditCardFraud_C2.csv,Agglomerative,{'n_clusters': 5},5,0.392950231375471
+CustomerPersonality_D1.csv,KMeans,{'n_clusters': 11},11,0.6159021457880973
+CustomerPersonality_D1.csv,DBSCAN,"{'eps': 0.1, 'min_samples': 15}",5,0.8958585272739426
+CustomerPersonality_D1.csv,Agglomerative,{'n_clusters': 7},7,0.5938536505317867
+CustomerPersonality_D2.csv,KMeans,{'n_clusters': 15},15,0.462069909001033
+CustomerPersonality_D2.csv,DBSCAN,"{'eps': 0.15, 'min_samples': 15}",10,0.8358343124197729
+CustomerPersonality_D2.csv,Agglomerative,{'n_clusters': 15},15,0.4538511814635613
+CustomerPersonality_D3.csv,KMeans,{'n_clusters': 14},14,0.43938004310323686
+CustomerPersonality_D3.csv,DBSCAN,"{'eps': 0.1, 'min_samples': 15}",10,0.8868854744128701
+CustomerPersonality_D3.csv,Agglomerative,{'n_clusters': 15},15,0.4366613235610732
+MedicalCost_E1.csv,KMeans,{'n_clusters': 15},15,0.461401538034564
+MedicalCost_E1.csv,DBSCAN,"{'eps': 0.1, 'min_samples': 15}",4,0.9746574025211641
+MedicalCost_E1.csv,Agglomerative,{'n_clusters': 15},15,0.45747672595410294
+SupermarketAnalysis_D1.csv,KMeans,{'n_clusters': 6},6,0.20594159536992085
+SupermarketAnalysis_D1.csv,DBSCAN,"{'eps': 0.4, 'min_samples': 5}",4,0.8943162570708042
+SupermarketAnalysis_D1.csv,Agglomerative,{'n_clusters': 9},9,0.29115453526817503
+SupermarketAnalysis_D2.csv,KMeans,{'n_clusters': 15},15,0.2909905734967058
+SupermarketAnalysis_D2.csv,DBSCAN,"{'eps': 0.1, 'min_samples': 7}",2,0.9936797016389289
+SupermarketAnalysis_D2.csv,Agglomerative,{'n_clusters': 15},15,0.2544460850693187
